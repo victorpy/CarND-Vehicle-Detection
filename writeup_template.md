@@ -83,7 +83,7 @@ I decided to crop the search window to leave out the sky, trees and the bottom p
 
 i tested how the pipeline was working using the test video, you can see the result in:
 
-![alt text][video1]
+![test video output][video1]
 ---
 
 ### Video Implementation
