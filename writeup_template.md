@@ -15,8 +15,8 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 [image1]: ./examples/car_not_car.png
-[image2]: ./examples/HOG_visualization_1.png
-[image3]: ./examples/sliding_windows_1.jpg
+[image2]: ./examples/hog_visualization_1.png
+[image3]: ./examples/sliding_windows_1.png
 [image4]: ./examples/sliding_window1.jpg
 [image5]: ./examples/hog_subsampling.png
 [image6]: ./examples/heatmap_1.png
