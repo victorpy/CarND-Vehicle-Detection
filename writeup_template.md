@@ -71,13 +71,13 @@ hog_feat = True # HOG features on or off
 
 ####1. Describe how (and identify where in your code) you implemented a sliding window search.  How did you decide what scales to search and how much to overlap windows?
 
-I decided to do a hog-subsampling and the result after the subsampling you can see in the next image:
+I searched on two scales using YCrCb 3-channel HOG features plus spatially binned color and histograms of color in the feature vector, which provided a nice result.  Here are an example image:
 
 ![alt text][image3]
 
 ####2. Show some examples of test images to demonstrate how your pipeline is working.  What did you do to optimize the performance of your classifier?
 
-I searched on two scales using YCrCb 3-channel HOG features plus spatially binned color and histograms of color in the feature vector, which provided a nice result.  Here are some example images:
+I decided to crop the search window to leave out the sky, trees and the bottom part of the image and then do a hog-subsampling and the result after the subsampling you can see in the next image:
 
 ![alt text][image5]
 
